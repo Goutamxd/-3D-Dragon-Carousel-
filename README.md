@@ -22,18 +22,29 @@ GSAP / Locomotive Scroll (optional) – Enhance animations (if extended)
 # 🎨 Customization
 To modify the images in the slider, replace the files in the images/ folder:
 
-bash
+bash 
+
+
 Copy
+
 Edit
+
 /images/dragon_1.jpg
+
 /images/dragon_2.jpg
+
 ...
+
 /images/dragon_10.jpg
+
 Modify animation speed in style.css:
 
 css
+
 Copy
+
 Edit
+
 @keyframes autoRun {
     from {
         transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
@@ -55,6 +66,6 @@ Adjust 20s to change rotation speed.
 🔹 Implement GSAP for smoother transitions
 
 # 🤝 Contributors
-👨‍💻 Gouti Dev - Web Designer & Developer
+👨‍💻 Goutam Dev - Web Designer & Developer
 
 🔥 Star this repo if you like it & feel free to contribute! 🚀
